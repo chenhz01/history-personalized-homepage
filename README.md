@@ -2,6 +2,8 @@
 
 Regenerate your homepage from the browsing history already on your machine: local JSONL events in, a ranked quick-links page out, deterministically. The cheapest personalization corpus you own is the one you never had to instrument for. If your tool, dashboard, or agent workspace opens a static start page, this makes it reorganize itself daily from real usage; if your history is thin or you never look at start pages, skip it.
 
+<p align="center"><img src="docs/demo.gif" alt="demo" width="720"></p>
+
 ## Problem
 
 New-tab and start pages have barely changed in a decade: a static bookmark grid someone configured once. Meanwhile one product showed the alternative — an LLM agent regenerating the page daily from the user's browsing history: history → profile → today's homepage [unverified claim about the specific project — see source link]. The mechanism underneath needs no model at all: history is the cheapest personalization signal, it is already local, and a deterministic scorer can produce most of the value with none of the privacy cost of shipping that history to a cloud model.
